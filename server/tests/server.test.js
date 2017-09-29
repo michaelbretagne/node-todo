@@ -88,8 +88,6 @@ describe('GET/ todos/:id', () => {
 	it('should return 404 if todo not found', (done) => {
 		var hexId = new ObjectID().toHexString();
 		var cons = new ObjectID();
-		console.log(cons);
-		console.log(cons.toHexString());
 		request(app)
 			.get(`/todos/${hexId}`)
 			.expect(404)
