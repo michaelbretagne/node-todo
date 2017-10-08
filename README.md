@@ -1,8 +1,8 @@
-#To-do list aplication (backend only) with node.js:<br>
+# To-do list aplication (backend only) with node.js:<br>
 Logged users can **creates**, **updates** and **deletes** their own todos.<br>
 Passwords are **encrypted** and authorization tokens are created to secure the data.
 
-##Routes:<br>
+## Routes:<br>
 
 **Users**
 
@@ -19,7 +19,7 @@ GET /todos/:id => Return todo by id<br>
 PATCH /todos/:id => Update todo by id<br>
 DELETE /todos/:id => Remove todo by id<br>
 
-##Node packages used:
+## Node packages used:
 
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs): Inbuilt crypto module's randomBytes interface used to obtain secure random numbers.
 - [body-parser](https://www.npmjs.com/package/body-parser): Parse incoming request bodies in a middleware before handlers.
